@@ -143,4 +143,4 @@ docker-compose up
 
 ## 📄 License
 
-MIT License © [Addiiik](https://github.com/addiiik)
+MIT License © [addiiik](https://github.com/addiiik)
