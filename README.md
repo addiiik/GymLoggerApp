@@ -54,20 +54,7 @@ npx expo start
 
 ---
 
-### 3️⃣ Start the Server
-
-Open **another terminal tab** and run:
-
-```bash
-cd server
-docker-compose up
-```
-
-💡 Make sure Docker is running on your machine.
-
----
-
-### 4️⃣ Configure API IP Address
+### 3️⃣ Configure API IP Address
 
 To allow the mobile client to talk to your backend, update the IP address in:
 
@@ -103,7 +90,9 @@ export const API_IP = "192.168.0.101";
 
 📱 This step is required for **Expo Go on your phone to access the local server** on your PC.
 
-### 5️⃣ Environment Configuration for Server
+---
+
+### 4️⃣ Environment Configuration for Server
 
 The server requires environment variables for the database and JWT authentication.
 
@@ -123,6 +112,19 @@ Generate a strong secret with this command:
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 Copy the output and replace your_secret_jwt_key_here with this value in your .env file.
+
+---
+
+### 5️⃣ Start the Server
+
+Open **another terminal tab** and run:
+
+```bash
+cd server
+docker-compose up
+```
+
+💡 Make sure Docker is running on your machine.
 
 ---
 
