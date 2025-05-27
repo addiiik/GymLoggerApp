@@ -96,7 +96,8 @@ export const API_IP = "192.168.0.101";
 
 The server requires environment variables for the database and JWT authentication.
 
-*Step 1: Create a .env file in the server folder*
+**Step 1: Create a .env file in the server folder**
+
 Create a .env file inside the server directory with the following content:
 ```
 POSTGRES_USER=gymlogger_postgres
@@ -106,7 +107,8 @@ DATABASE_URL=postgres://gymlogger_postgres:password_gymlogger@db:5432/gymlogger_
 JWT_SECRET=your_secret_jwt_key_here
 ```
 
-*Step 2: Generate a secure JWT secret*
+**Step 2: Generate a secure JWT secret**
+
 Generate a strong secret with this command:
 ```
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
