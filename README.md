@@ -123,12 +123,29 @@ Open **another terminal tab** and run:
 
 ```bash
 cd server
+npm install
 docker-compose up
 ```
 
 💡 Make sure Docker is running on your machine.
 
 ---
+
+### 6️⃣ Database
+
+Open **yet another terminal tab** and run:
+
+```bash
+cd server
+npx prisma generate
+docker exec server-server-1 npx prisma migrate dev --name init
+```
+
+---
+
+### 7️⃣ Get started!
+
+You can now use the application!
 
 ## 🧪 Tech Stack
 
@@ -143,4 +160,4 @@ docker-compose up
 
 ## 📄 License
 
-MIT License © [addiiik](https://github.com/addiiik)
+MIT License © [Addiiik](https://github.com/addiiik)
