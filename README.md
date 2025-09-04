@@ -147,14 +147,15 @@ docker exec server-server-1 npx prisma migrate dev --name init
 
 You can now use the application!
 
-## 🧪 Tech Stack
-
-- **Frontend**: React Native (Expo), TypeScript
-- **Backend**: Node.js, Express
-- **Database**: Postgres (via Docker)
-- **Mobile Runtime**: Expo Go
-- **State Management**: Context API
-- **Authentication**: JWT
+| Category           | Technology     |
+|--------------------|----------------|
+| **Language**       | [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)|
+| **Frontend**       | [![React Native](https://img.shields.io/badge/React_Native-20232a?logo=react&logoColor=61DAFB)](https://reactnative.dev/docs/environment-setup)|
+| **Backend**        | [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/en/docs/) <br> [![Express](https://img.shields.io/badge/Express-000?logo=express&logoColor=white)](https://expressjs.com)|
+| **Database**       | [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/)|
+| **Runtime**        | [![Expo Go](https://img.shields.io/badge/Expo_Go-1B1F23?logo=expo&logoColor=white)](https://docs.expo.dev/get-started/expo-go/)|
+| **Authentication** | [![JWT](https://img.shields.io/badge/JWT-000?logo=jsonwebtokens&logoColor=white)](https://jwt.io/introduction)|
+| **Containerization** | [![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white)](https://docs.docker.com/)|
 
 ---
 
